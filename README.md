@@ -1,7 +1,8 @@
 # Todo App
 
-![Captura de tela do Todo App](![image](https://user-images.githubusercontent.com/125518719/221220338-675fc078-475b-4ccb-8441-ec3baf48699f.png))
-![Captura de tela do Todo App](![image](![image](https://user-images.githubusercontent.com/125518719/221220627-2e19868b-b3f1-4dd2-b7c3-07e396eb7b9c.png)))
+![image](https://user-images.githubusercontent.com/125518719/221220808-e88d812f-b581-42bc-ab02-9217a907a6cc.png)
+![image](https://user-images.githubusercontent.com/125518719/221220973-80fb2901-816d-4083-8b71-4da24af0de88.png)
+
 
 
 ## Descrição
@@ -15,5 +16,5 @@ Para começar, basta adicionar sua tarefa no campo de entrada e clicar no botão
 ## Instalação
 
 1. Clone o repositório: `git clone https://github.com/viniciosragazzidev/todoapp.git`
-2. Abra o projeto em seu editor de código
-3. Abra o arquivo `index.html` em seu navegador
+2. Abra o projeto em seu editor  e digite no terminal `npm run dev`
+3. O projeto abrirá  em seu navegador
