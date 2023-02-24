@@ -1,6 +1,6 @@
 # Todo App
 
-![image](https://user-images.githubusercontent.com/125518719/221220808-e88d812f-b581-42bc-ab02-9217a907a6cc.png)
+![image](https://user-images.githubusercontent.com/125518719/221266497-06cc89af-13bf-4f87-873d-f3a764f75737.png)
 ![image](https://user-images.githubusercontent.com/125518719/221220973-80fb2901-816d-4083-8b71-4da24af0de88.png)
 
 
