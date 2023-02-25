@@ -73,6 +73,8 @@ export default function TodoBox() {
                   type="checkbox"
                   name="checked"
                   id="completed"
+                  
+                  checked={task.done}
                   onClick={() => {
                     toggleTask(task.id);
                   }}

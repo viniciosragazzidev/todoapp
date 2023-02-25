@@ -73,16 +73,16 @@ const ContextProvider = ({ children }: { children: React.ReactNode }) => {
       task.id === id ? { ...task, done: !task.done } : task
     );
     setTasks(updatedTasks);
-    localStorage.setItem("tasks", JSON.stringify([updatedTasks]));
+    localStorage.setItem("tasks", JSON.stringify(updatedTasks));
   };
 
   const removeTask = (id: number) => {
     const filteredTasks = tasks.filter((task) => task.id !== id);
     setTasks(filteredTasks);
     if (filteredTasks.length > 0) {
-      localStorage.setItem("tasks", JSON.stringify([filteredTasks]));
+      localStorage.setItem("tasks", JSON.stringify([...filteredTasks]));
     }else{
-      localStorage.clear('tasks')
+      localStorage.removeItem('tasks')
     }
   };
 
@@ -91,7 +91,7 @@ const ContextProvider = ({ children }: { children: React.ReactNode }) => {
       task.id === id ? { ...task, title: title } : task
     );
     setTasks(updatedTasks);
-    localStorage.setItem("tasks", JSON.stringify([updatedTasks]));
+    localStorage.setItem("tasks", JSON.stringify(updatedTasks));
 
     handleNotification("sucess", 5, "Task editada com sucesso!!");
   };
